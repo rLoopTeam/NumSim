@@ -1,0 +1,19 @@
+#### Input: Design Criteria ####
+v_crit (m/s) =  3.4029
+zeta =  0.25
+
+System is under-damped
+#### Numeric calcs for reference ####
+v_crit (mph) =  7.612083126
+omega_0 (rad/s) =  0.106905256287
+omega_Mach0_13  (rad/s) =  1.38976833173
+omega_Mach1  (rad/s) =  10.6905256287
+omega_Mach2  (rad/s) =  21.3810512574
+Transfer function, G(s) =  
+0.05345 s^3 + 0.01143 s^2
+-------------------------
+s^2 + 0.05345 s + 0.01143
+
+#### Output: Required Specs for Suspension ####
+k_s =  0.396196105821
+c_s =  1.85302444231
