@@ -1,9 +1,22 @@
 import math
 import numpy as np
+try:
+    r_t = input("What is the radius of tube?")
+except:
+    print "Please enter a numeric value"
+    r_t = input("What is the radius of tube?")
 
-r_t = input("What is the radius of tube?")
-r_p = input("What is the radius of pod?")
-v = input("What is the velocity of pod?")
+try:
+    r_p = input("What is the radius of pod?")
+except:
+    print "Please enter a numeric value"
+    r_p = input("What is the radius of pod?")
+try:
+    v = input("What is the velocity of pod?")
+except:
+    print "Please enter a numeric value in metres per second"
+    v = input("What is the velocity of pod?")
+
 G = 1.4   #Gamma
 pi = 3.14 #Pi
 A_t = pi*r_t*r_t #Area of tube
