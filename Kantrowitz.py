@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # reference:Analysis of a Channeled Centerbody Supersonic Inlet for F-15B Flight Research
-# by Nalin A. Ratnayake
+# by A. Ratnayake
 
 import math
 import numpy as np
